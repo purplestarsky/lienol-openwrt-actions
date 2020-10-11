@@ -19,5 +19,5 @@
 # 注释掉lienol大diy1源
 #sed -i 's/^\(.*diy1\)/#&/' feeds.conf.default
 
-# 添加lxhao大diy1源
+# 添加修改后的diy1源
 #sed -i '$a src-git diy1 https://github.com/lxhao61/openwrt-package.git;master' feeds.conf.default
