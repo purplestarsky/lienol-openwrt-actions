@@ -15,3 +15,9 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# 注释掉lienol大diy1源
+sed -i 's/^\(.*diy1\)/#&/' feeds.conf.default
+
+# 添加lxhao大diy1源
+sed -i '$a src-git diy1 https://github.com/lxhao61/openwrt-package.git;master' feeds.conf.default
